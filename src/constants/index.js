@@ -33,4 +33,10 @@ export const second = [
       title: 'lorem ipsum',
       img: image3,
     },
+    {
+      id: 'stats-3',
+      title: 'lorem ipsum',
+      img: image3,
+    },
+   
   ];
