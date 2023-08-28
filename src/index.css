@@ -298,6 +298,12 @@ body {
     width: calc(25% - 20px); /* Divide the width equally for 4 cards per row */
   }
 }
+@media (max-width: 768px) {
+  .intro-card {
+    width: 100%; /* Full width of the viewport */
+    margin: 10px 0; /* Add some space between cards */
+  }
+}
 
 .intro-card-title {
   font-family: 'Poppins', sans-serif;
@@ -329,6 +335,12 @@ body {
 @media (min-width: 768px) {
   .secondary-card {
     width: calc(25% - 20px);
+  }
+}
+@media (max-width: 768px) {
+  .secondary-card {
+    width: 100%; /* Full width of the viewport */
+    margin: 10px 0; /* Add some space between cards */
   }
 }
 
