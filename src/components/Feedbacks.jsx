@@ -27,7 +27,7 @@ function Feedbacks() {
 
   return (
     <div className="container">
-      
+      <div>
       <Swiper
         effect={'coverflow'}
         grabCursor={true}
@@ -60,7 +60,11 @@ function Feedbacks() {
             </div>
           </SwiperSlide>
         ))}
+       
       </Swiper>
+      </div>
+     
+      
     </div>
   );
 }
